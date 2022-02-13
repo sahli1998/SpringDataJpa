@@ -82,7 +82,7 @@ providerRepository.findAll());
 		  
 		  model.addAttribute("provider", provider);
 		  
-		  return "provider/updateProvider";
+		  return "provider/updateProviders";
 		  }
 		  
 		  @PostMapping("update")
